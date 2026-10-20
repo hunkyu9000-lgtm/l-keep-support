@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="referrer" content="no-referrer"/>
+  <title>L-Keep | Privacy</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header><a href="index.html" aria-label="L-Keep"><img src="logo.png" alt="L-Keep" width="190"/></a><nav aria-label="Language"><a href="#ko" lang="ko">한국어</a><a href="#en" lang="en">English</a><a href="#zh" lang="zh-Hans">简体中文</a></nav></header>
+<main>
+  <h1>L-Keep Privacy</h1>
+  <p class="notice">검토용 초안 · Draft for review · 审阅草案<br/>2026-10-20</p>
+  <section id="ko" lang="ko">
+    <h2>개인정보처리방침</h2>
+    <p>대상: L-Keep Windows 데스크톱 앱과 이 지원 페이지. 게시자: hunkyu9000. 연락처: <a href="mailto:hunkyu9000@gmail.com">hunkyu9000@gmail.com</a>.</p>
+    <h3>처리하는 정보와 목적</h3>
+    <p>앱은 사용자가 등록하거나 가져온 메일 계정, 서버 설정, 발신자·수신자, 제목·본문·첨부파일, 연락처, 폴더, 서명, 임시보관 메일과 환경설정을 메일 수신·작성·전송·검색·보관을 위해 처리합니다. 선택한 메일 파일과 PST 파일도 가져오기 또는 열기에 사용됩니다.</p>
+    <h3>로컬 저장과 보호</h3>
+    <p>메일, 설정, 검색 색인, 오류 로그와 WebView2 캐시는 기본적으로 이 PC의 <code>%LOCALAPPDATA%\Letterkeep</code>에 저장됩니다. 예전 이름의 경로는 기존 데이터 호환성을 위해 유지합니다. 사용자가 내보내거나 미러링한 파일은 선택한 위치에 저장됩니다. 계정 비밀번호 등 인증 비밀은 Windows 자격 증명 관리자를 사용하지만, 이것이 메일 파일 전체의 암호화를 뜻하지는 않습니다. 기기·Windows 계정·백업의 접근 권한도 보호해야 합니다.</p>
+    <h3>외부로 전송되는 경우</h3>
+    <p>메일 연결과 동기화 또는 발송 시 등록한 메일 서비스에 인증 정보와 필요한 메일 데이터가 전달됩니다. 자동 동기화와 발신 재시도는 사용자가 활성화한 설정에 따라 실행될 수 있습니다. 외부 이미지는 기본 차단되지만 허용하면 이미지 서버에 IP 주소와 이미지 요청 정보가 전달될 수 있습니다. 외부 프로그램으로 첨부파일을 열거나 파일을 공유하면 해당 프로그램·서비스의 정책이 적용됩니다.</p>
+    <h3>선택적 AI/MCP 연결</h3>
+    <p>앱은 계정별로 명시적으로 허용한 메일에 대해 로컬 읽기 전용 MCP 접근을 제공합니다. AI 클라이언트를 연결하면 요청한 메일·첨부파일 텍스트 등이 그 클라이언트와 해당 서비스로 전달될 수 있습니다. 해당 서비스의 처리·보관 정책을 확인한 후 허용하세요. 허용 해제는 향후 접근을 제한하지만 이미 전달된 복사본을 회수하지 않습니다. MCP 인터페이스에는 메일 발송·삭제·이동 기능이 없습니다.</p>
+    <h3>진단과 제3자 서비스</h3>
+    <p>현재 앱에는 게시자 서버로 메일을 자동 업로드하거나 광고·사용 분석을 전송하는 기능이 없습니다. 오류는 로컬에 기록되며 파일 경로나 오류에 포함된 개인정보가 남을 수 있습니다. Microsoft Store, Windows, WebView2, 메일 제공업체와 사용자가 연결한 AI 서비스의 진단·데이터 처리는 각 제공업체 정책의 적용을 받습니다.</p>
+    <h3>보관과 삭제</h3>
+    <p>로컬 데이터는 사용자가 관리합니다. 계정 연결 해제, 메일 목록에서 삭제 또는 앱 제거만으로 보존 원본·첨부파일·백업·자격 증명까지 전부 삭제되지는 않을 수 있습니다. 제거 후에도 기존 메일과 설정을 보존하도록 설계되어 있습니다. 모든 로컬 사본을 제거하려면 백업 필요 여부를 먼저 확인하고 지원 연락처로 절차를 문의하세요. 메일 서버나 AI 서비스에 전달된 데이터는 해당 서비스에서 별도로 관리해야 합니다.</p>
+    <h3>지원 문의와 이 웹사이트</h3>
+    <p>지원 메일을 보내면 연락 이메일과 문의 내용이 위 Gmail 주소로 전달됩니다. 민감한 메일·비밀번호는 보내지 마세요. 문의 관련 정보의 열람·정정·삭제 요청도 같은 주소로 연락할 수 있습니다. 이 페이지는 추적 스크립트, 분석 도구, 입력 양식을 사용하지 않습니다. GitHub Pages로 게시될 경우 호스팅 제공업체가 웹 요청 정보와 IP 주소를 처리할 수 있으며 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>이 적용됩니다.</p>
+    <p>앱의 데이터 처리 방식이 바뀌면 이 안내도 갱신합니다. 이 초안은 출시 전 기능과 운영 방침 확인을 거쳐 확정됩니다.</p>
+  </section>
+  <section id="en" lang="en">
+    <h2>Privacy policy</h2>
+    <p>Scope: the L-Keep Windows desktop app and this support site. Publisher: hunkyu9000. Contact: <a href="mailto:hunkyu9000@gmail.com">hunkyu9000@gmail.com</a>.</p>
+    <h3>Information and purposes</h3>
+    <p>The app processes accounts and server settings, senders and recipients, subjects, bodies, attachments, contacts, folders, signatures, drafts and preferences supplied by the user to receive, compose, send, search and archive email. Selected mail and PST files are processed when opened or imported.</p>
+    <h3>Local storage and protection</h3>
+    <p>Mail, settings, search indexes, error logs and WebView2 caches are stored by default under <code>%LOCALAPPDATA%\Letterkeep</code> on this PC. The legacy path preserves compatibility. Exported or mirrored files are stored at user-selected locations. Account secrets use Windows Credential Manager; this does not mean that all stored mail is encrypted. Protect the device, Windows account and backups.</p>
+    <h3>Network transfers</h3>
+    <p>Connecting, synchronizing or sending email transmits authentication details and necessary mail data to the configured mail provider. Enabled automatic synchronization and outgoing retries may run according to user settings. External images are blocked by default; allowing them may disclose your IP address and image request information to the image server. External attachment viewers and file-sharing services have their own policies.</p>
+    <h3>Optional AI/MCP access</h3>
+    <p>The local read-only MCP interface exposes only explicitly allowed accounts. A connected AI client may receive requested messages or attachment text and send it to its service. Review that service's processing and retention practices before granting access. Revoking access limits future requests but does not recall previously shared copies. The MCP interface does not send, delete or move email.</p>
+    <h3>Diagnostics and other providers</h3>
+    <p>The current app has no feature that automatically uploads mail or sends advertising or usage analytics to a publisher-operated server. Errors are logged locally and may include file paths or personal information contained in an error. Microsoft Store, Windows, WebView2, mail providers and connected AI services process their own data under their respective policies.</p>
+    <h3>Retention and deletion</h3>
+    <p>You control local data. Disconnecting an account, removing an item from a mail list or uninstalling the app may not remove preserved originals, attachments, backups or credentials. Existing mail and settings are designed to remain after removal. Before removing all copies, consider your backup needs and contact support for guidance. Data sent to mail or AI services must be managed separately with those providers.</p>
+    <h3>Support and this website</h3>
+    <p>Emailing support sends your contact address and request to the Gmail address above. Do not include sensitive messages or passwords. You may also contact that address with requests to access, correct or delete information associated with a support inquiry. This page uses no tracking scripts, analytics tools or input forms. When hosted on GitHub Pages, the hosting provider may process request details and IP addresses under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+    <p>This notice will be updated when processing changes. The draft requires confirmation of release behavior and operating practices before it becomes final.</p>
+  </section>
+  <section id="zh" lang="zh-Hans">
+    <h2>隐私政策</h2>
+    <p>范围：L-Keep Windows 桌面应用和本支持网站。发布者：hunkyu9000。联系方式：<a href="mailto:hunkyu9000@gmail.com">hunkyu9000@gmail.com</a>。</p>
+    <h3>处理的信息及目的</h3>
+    <p>应用处理用户添加或导入的账户、服务器设置、发件人与收件人、主题、正文、附件、联系人、文件夹、签名、草稿和偏好设置，用于接收、编写、发送、搜索和保存邮件。用户选择的邮件文件和 PST 文件用于打开或导入。</p>
+    <h3>本地存储与保护</h3>
+    <p>邮件、设置、搜索索引、错误日志和 WebView2 缓存默认保存在本机的 <code>%LOCALAPPDATA%\Letterkeep</code>。保留旧路径是为了兼容现有数据。导出或镜像文件保存到用户选择的位置。账户密码等认证秘密使用 Windows 凭据管理器保存，但这并不代表所有邮件文件均已加密。请保护设备、Windows 账户和备份的访问权限。</p>
+    <h3>网络传输</h3>
+    <p>连接、同步或发送邮件时，认证信息和必要邮件数据会发送给配置的邮件服务商。启用的自动同步和发送重试可按用户设置运行。外部图片默认被阻止；允许加载后，图片服务器可能获得 IP 地址和图片请求信息。外部附件查看器和文件分享服务适用各自的政策。</p>
+    <h3>可选的 AI/MCP 访问</h3>
+    <p>本地只读 MCP 接口仅提供用户明确允许的账户。连接 AI 客户端后，请求的邮件或附件文本可能发送到该客户端及其服务。授权前请查看其处理和保留政策。撤销授权可限制后续访问，但不能收回已经分享的副本。MCP 接口不提供发送、删除或移动邮件的功能。</p>
+    <h3>诊断与其他服务</h3>
+    <p>当前应用不具备自动向发布者服务器上传邮件或发送广告及使用分析的功能。错误记录保存在本地，可能包含文件路径或错误内容中的个人信息。Microsoft Store、Windows、WebView2、邮件提供商及连接的 AI 服务按照各自政策处理数据。</p>
+    <h3>保留与删除</h3>
+    <p>本地数据由用户管理。断开账户、从邮件列表删除项目或卸载应用，可能不会删除保留的原始文件、附件、备份或凭据。应用设计为卸载后仍保留现有邮件和设置。删除所有本地副本前，请先确认备份需求并联系支持了解步骤。已发送给邮件或 AI 服务的数据，需要在相应服务中另行管理。</p>
+    <h3>支持邮件与本网站</h3>
+    <p>发送支持邮件时，联系邮箱和咨询内容会发送到上述 Gmail 地址。请勿发送敏感邮件或密码。如需查阅、更正或删除咨询相关信息，也可联系该地址。本页面不使用跟踪脚本、分析工具或输入表单。若通过 GitHub Pages 托管，托管方可能按 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>处理请求信息和 IP 地址。</p>
+    <p>数据处理方式变化时，本说明也会更新。本草案将在发布前确认实际功能和运营方式后定稿。</p>
+  </section>
+</main>
+<footer><a href="index.html">Support / 지원 / 支持</a> · L-Keep · 2026-10-20</footer>
+</body>
+</html>
